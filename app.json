@@ -1,0 +1,56 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/repo/repo",
+    "pages/share/share",
+    "pages/about/about",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#05d",
+    "navigationBarTitleText": "e(^y^!) Collector",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "Home",
+        "iconPath": "images/navigetor/home.png",
+        "selectedIconPath": "images/navigetor/home1.png"
+      },
+      {
+        "pagePath": "pages/repo/repo",
+        "text": "Repo",
+        "iconPath": "images/navigetor/repo.png",
+        "selectedIconPath": "images/navigetor/repo1.png"
+      },
+      {
+        "pagePath": "pages/share/share",
+        "text": "Share",
+        "iconPath": "images/navigetor/share.png",
+        "selectedIconPath": "images/navigetor/share1.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "About",
+        "iconPath": "images/navigetor/about.png",
+        "selectedIconPath": "images/navigetor/about1.png"
+      }
+    ], 
+    "color": "#ccc", 
+    "selectedColor": "#ffffff",
+    "backgroundColor": "#05c",
+    "borderStyle": "white",
+    "position": "bottom",
+    "custom": false
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true, 
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,4 @@
+/* pages/repo/repo.wxss */
+.container {
+  background: linear-gradient(rgba(122, 249, 221, 0.563),rgb(255, 255, 255));
+}

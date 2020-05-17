@@ -1,0 +1,35 @@
+/**index.wxss**/
+.container {
+  background: linear-gradient(#05c,rgb(255, 255, 255));
+  /* border: 5px solid rgba(0, 51, 255, 0.166);
+  border-radius: 5px; */
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.motto {
+  text-align: center;
+  line-height: 32px;
+}
+.intro {
+  text-align: center;
+  line-height: normal;
+}
